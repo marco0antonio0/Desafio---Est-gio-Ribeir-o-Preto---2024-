@@ -42,12 +42,30 @@ def fibonacci(n):
         sequence.append(next_number)
     return sequence
 
+def buscarDado(entrada_do_dado,result):
+    res = False
+    for i in result:
+        if i == entrada_do_dado:
+            res = True
+
 n = 10
 result = fibonacci(n)
-print(result)
+print('sequencia de fibonacci:\n',result)
+
+entada_de_dado = 11
+saida = buscarDado(entada_de_dado,result)
+if saida:
+  print(f'dado {entada_de_dado} encontrado na sequencia')
+else:
+  print(f'dado {entada_de_dado} não encontrado na sequencia')
+  
+
+
 ```
 **RES:**
-[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+sequencia de fibonacci:
+ [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+dado 11 não encontrado na sequencia
 
 **3 - Descubra a lógica e complete o próximo elemento:**
 a) 1, 3, 5, 7, ___
