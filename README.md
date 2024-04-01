@@ -64,7 +64,9 @@ else:
 ```
 **RES:**
 sequencia de fibonacci:
+
  [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+ 
 dado 11 não encontrado na sequencia
 
 **3 - Descubra a lógica e complete o próximo elemento:**
