@@ -66,7 +66,7 @@ else:
 sequencia de fibonacci:
 
  [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
- 
+
 dado 11 não encontrado na sequencia
 
 **3 - Descubra a lógica e complete o próximo elemento:**
@@ -110,7 +110,7 @@ Ligue o primeiro interruptor e espere alguns minutos. Desligue o primeiro interr
 
 Entre na sala. Se uma lâmpada estiver acesa, ela está conectada ao segundo interruptor. Se a lâmpada estiver desligada e estiver quente, ela está conectada ao primeiro interruptor. Se a lâmpada estiver desligada e não estiver quente, ela está conectada ao terceiro interruptor.
 
-**4 - Escreva um programa que inverta os caracteres de um string.**
+**5 - Escreva um programa que inverta os caracteres de um string.**
 IMPORTANTE:
 
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
